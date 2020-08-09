@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="台灣普雷伊電視遊樂器專賣店門市地圖" />
+        <meta property="og:description" content="普雷伊成立於 1987 年，目前全台灣 13 家門市分店，是台灣最大電視遊樂器與玩具專賣店。結合網路虛擬商店及實體通路門市，提供最實在的價格、最舒適的購物環境、最便利的方式來服務客戶。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="css/retail-store-map.css" />
+        <title>台灣普雷伊電視遊樂器專賣店門市地圖</title>
+    </head>
+    <body>
+        <div id="app">
+            <vue-map :locations="locations" v-model="map"></vue-map>
+        </div>
+        <script type="text/x-template" id="map">
+            <div class="map">
+            </div>
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANrwP97rB6-tun03pB8yY3NPd3di2BRTI" defer></script>
+        <script src="js/retail-store-map.js" defer></script>
+    </body>
+</html>
