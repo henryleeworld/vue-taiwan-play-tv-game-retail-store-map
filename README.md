@@ -11,5 +11,5 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/hIZKHKd.png)
+![](https://i.imgur.com/vYUlHyg.png)
 > 讓每位玩家更能用的安心、玩得開心
